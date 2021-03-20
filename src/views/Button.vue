@@ -1,0 +1,111 @@
+<template>
+Switch 的内容
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+  <p>Switch content</p>
+</template>
+
+<script lang="ts">
+
+</script>
+
+<style lang="scss" scoped>
+
+</style>

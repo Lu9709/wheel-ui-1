@@ -1,0 +1,111 @@
+<template>
+Tabs 的内容
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+  <p>Tabs content</p>
+</template>
+
+<script lang="ts">
+
+</script>
+
+<style lang="scss" scoped>
+
+</style>
