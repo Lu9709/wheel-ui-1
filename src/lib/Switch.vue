@@ -26,6 +26,7 @@ button {
   background: grey;
   border-radius: $h/2;
   position: relative;
+  transition: left 250ms;
 }
 
 button.checked {
@@ -34,7 +35,9 @@ button.checked {
 button:hover > span {
   left: calc(100% - #{$h2} - 2px);
 }
-
+button:focus {
+  outline: none;
+}
 span {
   position: absolute;
   top: 2px;
