@@ -34,7 +34,7 @@ export default {
 aside {
   background: #ece5e5;
   width: 150px;
-  padding: 16px;
+  padding:70px 16px;
   position: fixed;
   top: 0;
   left: 0;
