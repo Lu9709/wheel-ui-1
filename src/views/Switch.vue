@@ -1,109 +1,11 @@
 <template>
-  Switch 的内容
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
-  <p>Switch content</p>
+  <SwitchDemo/>
 </template>
-
 <script lang="ts">
-
+import SwitchDemo from '../lib/Switch.vue'
+export default {
+  components:{SwitchDemo}
+}
 </script>
 
 <style lang="scss" scoped>
