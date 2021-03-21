@@ -10,7 +10,7 @@ export default {
   },
   setup(props,content) {
     const toggle =()=>{
-      content.emit('input',!props.value)
+      content.emit('update:input',!props.value)
     }
     return {toggle}
   }

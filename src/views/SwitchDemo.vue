@@ -1,5 +1,5 @@
 <template>
-  <Switch :value="buttonValue" @input="buttonValue=$event"/>
+  <Switch v-model:value="buttonValue"/>
 </template>
 <script lang="ts">
 import Switch from '../lib/Switch.vue'
