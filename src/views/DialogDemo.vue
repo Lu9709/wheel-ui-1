@@ -11,12 +11,15 @@
       <div>hi2</div>
     </template>
   </Dialog>
- </template>
+  <h2>示例2</h2>
+  <Button @click="showDialog">show</Button>
+</template>
 
 <script lang="ts">
 import Dialog from '../lib/Dialog.vue';
 import Button from '../lib/Button.vue';
-import {ref} from 'vue';
+import {ref, h} from 'vue';
+import {openDialog} from '../lib/openDialog';
 
 export default {
   components: {Button, Dialog},
@@ -24,7 +27,7 @@ export default {
   setup() {
     const bool = ref(false);
     const f1 = () => {
-      return false
+      return false;
     };
     const f2 = () => {
 
@@ -32,7 +35,19 @@ export default {
     const toggle = () => {
       bool.value = !bool.value;
     };
-    return {bool, toggle, f1, f2};
+    const showDialog = () => {
+      openDialog({
+        title: h('strong', {}, '标题一'),
+        content: 'hello',
+        ok() {
+          console.log('ok');
+        },
+        cancel() {
+          console.log('cancel');
+        }
+      });
+    };
+    return {bool, toggle, f1, f2, showDialog};
   }
 };
 
