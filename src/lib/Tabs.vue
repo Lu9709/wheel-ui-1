@@ -6,7 +6,8 @@
       </div>
     </div>
     <div class="gulu-tabs-content">
-      <component class="gulu-tabs-content-item"  :is="current"
+      <component class="gulu-tabs-content-item" :class="{selected: c.props.title === selected } " v-for="c in defaults"
+                 :is="c"
       ></component>
     </div>
 
@@ -33,12 +34,12 @@ export default {
     const select = (title: string) => {
       context.emit('update:selected', title);
     };
-    const current = computed(()=>{
-      return defaults.filter((tag)=>{
-        return tag.props.title === props.selected
-      })[0]
-    })
-    return {defaults, titles, select,current};
+    const current = computed(() => {
+      return defaults.filter((tag) => {
+        return tag.props.title === props.selected;
+      })[0];
+    });
+    return {defaults, titles, select, current};
   }
 };
 </script>
@@ -69,6 +70,15 @@ $border-color: #d9d9d9;
 
   &-content {
     padding: 8px 0;
+
+    &-item {
+      display: none;
+
+      &.selected {
+        display: block;
+      }
+    }
+
   }
 }
 </style>
