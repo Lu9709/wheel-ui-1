@@ -11,7 +11,7 @@
       <div>hi2</div>
     </template>
   </Dialog>
-</template>
+ </template>
 
 <script lang="ts">
 import Dialog from '../lib/Dialog.vue';
