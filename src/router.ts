@@ -5,8 +5,11 @@ import Button from './components/Button/ButtonDemo.vue'
 import Tabs from './components/Tabs/TabsDemo.vue'
 import Dialog from './components/Diaglog/DialogDemo.vue'
 import Markdown from './components/Markdown.vue'
+// @ts-ignore
 import intro from './markdown/intro.md'
+// @ts-ignore
 import install from './markdown/install.md'
+// @ts-ignore
 import getStarted from './markdown/get-started.md'
 import {h} from 'vue'
 
