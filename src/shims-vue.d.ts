@@ -3,3 +3,7 @@ declare module '*.vue' {
   const component: ComponentOptions
   export default ComponentOptions
 }
+declare module "*.md" {
+  const str: string;
+  export default str;
+}
