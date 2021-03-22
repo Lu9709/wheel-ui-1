@@ -50,7 +50,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-
+$aside-index: 10;
 .layout {
   display: flex;
   flex-direction: column;
@@ -92,6 +92,7 @@ aside {
   left: 0;
   padding-top: 70px;
   height: 100%;
+  z-index: $aside-index;
 
   > h2 {
     margin-bottom: 4px;
@@ -100,17 +101,19 @@ aside {
 
   > ol {
     > li {
-      >a {
+      > a {
         display: block;
         padding: 4px 16px;
         text-decoration: none;
       }
+
       .router-link-active {
         background: white;
       }
     }
   }
-  main{
+
+  main {
     overflow: auto;
   }
 }
