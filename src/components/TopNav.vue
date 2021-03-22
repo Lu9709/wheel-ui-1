@@ -24,7 +24,6 @@ export default {
 </script>
 <style lang="scss">
 .topNav {
-  background: #ddd7d7;
   display: flex;
   padding: 16px;
   position: fixed;
