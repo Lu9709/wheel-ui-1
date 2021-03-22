@@ -6,17 +6,23 @@
       </svg>
     </div>
     <ul class="menu">
-      <li>菜单1</li>
-      <li>菜单2</li>
+      <router-link to="/doc">文档</router-link>
     </ul>
-    <img src="../assets/images/list.png" alt=""
-         class="toggleAside" @click="toggleMenu">
+    <svg v-if="toggleMenuButtonVisible" class="toggleAside" @click="toggleMenu">
+      <use xlink:href="#icon-menu"></use>
+    </svg>
   </div>
 </template>
 <script lang="ts">
 import {inject, Ref} from 'vue';
 
 export default {
+  props: {
+    toggleMenuButtonVisible: {
+      type: Boolean,
+      default: false
+    }
+  },
   setup() {
     const asideVisible = inject<Ref<boolean>>('asideVisible');
     const toggleMenu = () => {
@@ -61,8 +67,8 @@ $color: #007974;
 
   > .toggleAside {
     display: none;
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
     position: absolute;
     left: 16px;
     top: 50%;
