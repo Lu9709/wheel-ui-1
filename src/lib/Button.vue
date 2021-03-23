@@ -1,6 +1,6 @@
 <template>
   <button class="gulu-button" :class="classes" :disabled="disabled">
-  <span v-if="loading" class="gulu-loadingIndicator"></span>
+    <span v-if="loading" class="gulu-loadingIndicator"></span>
     <slot/>
   </button>
 </template>
@@ -188,7 +188,8 @@ $grey: grey;
       color: $grey;
     }
   }
-  > .gulu-loadingIndicator{
+
+  > .gulu-loadingIndicator {
     width: 14px;
     height: 14px;
     display: inline-block;
@@ -200,8 +201,13 @@ $grey: grey;
     animation: gulu-spin 1s infinite linear;
   }
 }
+
 @keyframes gulu-spin {
-  0%{transform: rotate(0deg)}
-  100%{transform: rotate(360deg)}
+  0% {
+    transform: rotate(0deg)
+  }
+  100% {
+    transform: rotate(360deg)
+  }
 }
 </style>

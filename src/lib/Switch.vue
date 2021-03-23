@@ -1,16 +1,16 @@
 <template>
-  <button class='gulu-switch' @click="toggle" :class="{'gulu-checked':value}"><span></span></button>
+  <button class="gulu-switch" @click="toggle" :class="{'gulu-checked':value}">
+    <span></span>
+  </button>
 </template>
-
 <script lang="ts">
-
 export default {
   props: {
-    value: Boolean
+    value: Boolean,
   },
   setup(props, context) {
     const toggle = () => {
-      context.emit('update:value', !props.value);
+      context.emit("update:value", !props.value);
     };
     return {toggle};
   }
@@ -64,5 +64,4 @@ $h2: $h - 4px;
     }
   }
 }
-
 </style>

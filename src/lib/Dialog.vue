@@ -1,70 +1,80 @@
 <template>
   <template v-if="visible">
-   <Teleport to="body">
-    <div class="gulu-dialog-overlay" @click="onClickOverlay"></div>
-    <div class="gulu-dialog-wrapper">
-      <div class="gulu-dialog">
-        <header>
-          <slot name="title"/>
-          <span class="gulu-dialog-close" @click="close"></span></header>
-        <main>
-          <slot name="content"/>
-        </main>
-        <footer>
-          <Button level="main" @click="ok">OK</Button>
-          <Button @click="cancel">Cancel</Button>
-        </footer>
+    <Teleport to="body">
+      <div class="gulu-dialog-overlay" @click="onClickOverlay"></div>
+      <div class="gulu-dialog-wrapper">
+        <div class="gulu-dialog">
+          <header>
+            <slot name="title" />
+            <span @click="close" class="gulu-dialog-close"></span>
+          </header>
+          <main>
+            <slot name="content" />
+          </main>
+          <footer>
+            <Button level="main" @click="ok">OK</Button>
+            <Button @click="cancel">Cancel</Button>
+          </footer>
+        </div>
       </div>
-    </div>
-   </Teleport>
+    </Teleport>
   </template>
 </template>
-<script lang="ts">
-import Button from './Button.vue';
 
+<script lang="ts">
+import Button from "./Button.vue";
 export default {
-  components: {Button},
   props: {
     visible: {
       type: Boolean,
       default: false
     },
-    closeOnclickOverlay: {
+    closeOnClickOverlay: {
       type: Boolean,
       default: true
     },
-    ok:{
-      type:Function
+    ok: {
+      type: Function
     },
-    cancel:{
-      type:Function
+    cancel: {
+      type: Function
     }
   },
-  setup(props,context){
-    const close = ()=>{
-      context.emit('update:visible',false)
+  components: {
+    Button,
+  },
+  setup(props, context) {
+    const close = () => {
+      context.emit('update:visible', false)
     }
-    const onClickOverlay = ()=>{
-      if(props.closeOnclickOverlay){
+    const onClickOverlay = () => {
+      if (props.closeOnClickOverlay) {
         close()
       }
     }
-    const ok = ()=>{
-      if(props?.ok() !== false){
+    const ok = () => {
+      if (props.ok?.() !== false) {
         close()
       }
     }
-    const cancel = ()=>{
-      props?.cancel()
+    const cancel = () => {
+      props.cancel?.()
       close()
     }
-    return {close,onClickOverlay,ok,cancel}
+    return {
+      close,
+      onClickOverlay,
+      ok,
+      cancel
+    }
   }
 };
 </script>
+
 <style lang="scss">
 $radius: 4px;
 $border-color: #d9d9d9;
+
 .gulu-dialog {
   background: white;
   border-radius: $radius;
@@ -90,7 +100,7 @@ $border-color: #d9d9d9;
     z-index: 11;
   }
 
-  > header {
+  >header {
     padding: 12px 16px;
     border-bottom: 1px solid $border-color;
     display: flex;
@@ -99,11 +109,11 @@ $border-color: #d9d9d9;
     font-size: 20px;
   }
 
-  > main {
+  >main {
     padding: 12px 16px;
   }
 
-  > footer {
+  >footer {
     border-top: 1px solid $border-color;
     padding: 12px 16px;
     text-align: right;
@@ -134,7 +144,7 @@ $border-color: #d9d9d9;
     &::after {
       transform: translate(-50%, -50%) rotate(45deg);
     }
+
   }
 }
-
 </style>
