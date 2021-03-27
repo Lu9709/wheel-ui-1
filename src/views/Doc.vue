@@ -80,7 +80,7 @@ $aside-index: 10;
   > main {
     flex-grow: 1;
     padding: 16px;
-    background: #ffebeb;
+    background: white;
   }
 }
 
@@ -112,7 +112,7 @@ aside {
       }
     }
   }
-
+in
   main {
     overflow: auto;
   }
