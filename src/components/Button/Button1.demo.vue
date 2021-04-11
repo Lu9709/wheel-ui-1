@@ -3,9 +3,9 @@
 </demo>
 <template>
   <div>
-    <Button>你好</Button>
-    <Button theme="link">你好</Button>
-    <Button theme="text">你好</Button>
+    <Button>Default Button</Button>
+    <Button theme="link">Link Button</Button>
+    <Button theme="text">Text Button</Button>
   </div>
 </template>
 
