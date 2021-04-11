@@ -58,6 +58,7 @@ $aside-index: 10;
 
   > .nav {
     flex-shrink: 0;
+    box-shadow: 0 1px 1px 0.5px rgba(88, 88, 88, 0.2);
   }
 
   > .content {
@@ -85,7 +86,7 @@ $aside-index: 10;
 }
 
 aside {
-  background: #ece5e5;
+  background: white;
   width: 150px;
   position: fixed;
   top: 0;
@@ -96,19 +97,23 @@ aside {
 
   > h2 {
     margin-bottom: 4px;
-    padding: 0 16px;
+    padding: 8px 16px;
   }
 
   > ol {
     > li {
       > a {
         display: block;
-        padding: 4px 16px;
+        padding: 8px 16px;
         text-decoration: none;
       }
-
+      a:hover{
+        color: #1890ff;
+      }
       .router-link-active {
-        background: white;
+        color: #1890ff;
+        background: rgba(230, 247, 255,0.5);
+        border-right: 3px solid #1890ff;
       }
     }
   }
